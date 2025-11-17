@@ -4,20 +4,31 @@
     <meta charset="utf-8" />
     <title>Unit 4 - Flexbox</title>
     <style>
+      .bookcontainer {
+        background-color: aqua;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .item {
+        background-color: lavenderblush;
+        width: 200px;
+      }
     </style>
   </head>
   <body>
     <h1>Cozy Reads</h1>
-
+<div class="bookcontainer">
       <img
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654581271i/61242426.jpg"
         width="200"
-      />
-      <p>
+     class="item"
+        />
+      <p class="item">
         It’s not easy to build a coffee shop in a place that has never had
         coffee before. #CozyFantasy
       </p>
-
+</div>
     <img
       src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569514209i/45047384.jpg"
       width="200"
